@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/haurkang/Documents/gatsby-final/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/haurkang/Documents/gatsby-cart/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/haurkang/Documents/gatsby-final/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/haurkang/Documents/gatsby-cart/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     },{
-      plugin: require('/Users/haurkang/Documents/gatsby-final/node_modules/gatsby-plugin-snipcart/gatsby-ssr'),
+      plugin: require('/Users/haurkang/Documents/gatsby-cart/node_modules/gatsby-plugin-snipcart/gatsby-ssr'),
       options: {"plugins":[],"apiKey":"YTM3NWY0Y2MtZjNmNi00N2VjLThhZTktZTlkMDM1NmNlNzZiNjM2OTQ2NTUxMjc4MDgyNTQ2","autopop":true},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
